@@ -43,3 +43,10 @@ coverage/
 
 # Node (if using frontend later)
 node_modules/
+*.v2
+*.vsidx
+*.bin
+/.vs/FinFlow/v17/DocumentLayout.backup.json
+/.vs/FinFlow/v17/DocumentLayout.json
+/src/Services/UserService/.vs/UserService/v17/DocumentLayout.backup.json
+/src/Services/UserService/.vs/UserService/v17/DocumentLayout.json
