@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  userservice:
+    build:
+      context: ./services/userservice
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./services/userservice:/app

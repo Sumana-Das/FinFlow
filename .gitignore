@@ -1,0 +1,45 @@
+# Build artifacts
+bin/
+obj/
+out/
+build/
+*.log
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.idea/
+*.code-workspace
+
+# Rider
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# ASP.NET Core
+appsettings.*.json
+.env
+*.db
+
+# Logs
+logs/
+*.log
+
+# Test results
+TestResults/
+coverage/
+
+# Node (if using frontend later)
+node_modules/
